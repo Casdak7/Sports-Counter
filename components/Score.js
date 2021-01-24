@@ -12,7 +12,7 @@ export default class Score extends Component {
     render(){
         return(
             <View>
-                <Text style={styles.scoreText}>{this.state.score}</Text>
+                <Text style={styles.scoreText}>{this.props.score.padStart(2,"0")}</Text>
             </View>
         )
     }

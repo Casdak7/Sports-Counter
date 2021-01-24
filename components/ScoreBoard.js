@@ -19,11 +19,11 @@ export default class ScoreBoard extends Component {
                     <Text style={styles.scoreBoardTitle}>Score</Text>
                     <View style={styles.scoreRow}>
                         <View style={styles.score}>
-                            <Score score='12' />
+                            <Score score='00'/>
                         </View>
                         <TimeBoard/>
                         <View style={styles.score}>
-                            <Score score='08' />
+                            <Score score='00'/>
                         </View>
                     </View>
                 </View>
